@@ -1,0 +1,243 @@
+/* common shared styles */
+body{
+    font-family: "Lato", sans-serif;
+    font-family: "Open Sans", sans-serif;
+      
+}
+
+.btn-primary{
+    background: #E55473;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    border: 0;
+    padding: 20px 45px;
+}
+.text-primary{
+    color: #E55473;
+    
+}
+
+/* banner styles */
+.header{
+    background: #faecf0;
+    border-bottom: 2px solid  rgba(8, 6, 6, 0.5);
+  
+    
+    
+}
+.sign-header{
+    background: #faecf0;
+    
+}
+.banner{
+    display: flex;
+    padding: 0px 120px ;
+    align-items: center;
+    justify-content: space-around;
+
+   
+}
+.banner .banner-content{
+    width: 710px;
+    padding-right: 20px;
+    
+}
+
+
+.banner .banner-pic{
+    max-width: 490px;
+    padding-top: 10px;
+    padding-left: 10px;
+ 
+}
+.banner-title{
+    font-size: 55px;
+    font-weight: 800;
+    color: #272727;
+    margin-bottom: 25px;
+    
+}
+.banner-description{
+    font-size: 16px;
+    color: #747272;
+    margin-bottom: 25px;
+    margin-top: 5px;
+}
+/* main style */
+
+main section{
+    margin-top: 130px;
+}
+
+/* sign up styles */
+.sign-up{
+    display: flex;
+    align-items: center;
+    padding: 30px 120px;
+    justify-content: space-around;
+
+}
+.sign-up .section-pic{
+    max-width: 300px;
+}
+.section-content{
+    width: 500px;
+    text-align: center;
+}
+/* our flowers styles */
+.section-title{
+    font-size: 35px;
+    color: #272727;
+    font-weight: 700;
+}
+.section-description{
+    font-size: 16px;
+    color: #747272;
+}
+.our-flower{
+    max-width: 1140px;
+    margin: 130px auto;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.show-flowers{
+    display: flex;
+    gap: 12px;
+    margin: 0 auto;
+
+    
+}
+.our-flower-content{
+    margin-bottom: 40px;
+}
+#frist-img{
+    background: #f3dadf;
+}
+#second-img{
+    background: #cbf8f8;
+    
+}
+#thrid-img{
+    background: #e2d6d6;
+}
+
+.flower-img{
+    width: 450px;
+    padding: 20px 20px 0px 20px;
+    border-top-left-radius: 48%;
+    border-top-right-radius: 48%;  
+}
+
+
+.our-flower hr{
+    color: #747272;
+    
+}
+
+.flower-name-content{
+   display: flex;
+   justify-content: space-around;
+   padding: 0 35px;
+   margin-top: 10px;
+}
+.flowers-name{
+    font-size: 18px;
+    font-weight: 600;
+    color: #272727;
+    
+}
+
+/* servies style */
+.our-servise{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    background: #d8d5d5;
+    
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.servies-content{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+   
+    
+    
+}
+/* instagram style */
+.instagram{
+    text-align: center;
+    max-width: 1140px;
+    margin: 130px auto;
+}
+.instagram-container{
+    display: flex;
+    gap: 5px;
+    justify-content: space-around;
+   
+}
+.insta-img{
+    width: 260px;
+    height: auto;
+    
+}
+.card{
+    width: 100%;
+}
+/* contact styly */
+.contact{
+    max-width: 1140px;
+    height: 400px;
+   
+    align-items: center;
+    text-align: center;
+    background-image: url(../images/Rectangle\ 9.png);
+    margin: 130px auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+.contact input[type="text"]{
+    margin-top: 10px;
+    margin-right: 5px;
+    padding: 20px 45px;
+    color: #757575;
+    background: #FFF;
+    border: 0;
+    border-radius: 5px;
+    width: 40%;
+}
+.contact-content{
+   padding-top: 50px;
+}
+
+
+
+
+/* footer styles */
+.footer-header{
+    background: #272727;
+    padding: 130px 0;
+
+}
+.footer-col{
+    text-align: center;
+    color: #faecf0;
+    
+}
+.footer-title{
+    font-size: 40px;
+}
+.footer-description{
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer-copyright{
+    font-size: 12px;
+    color: #747272;
+}
